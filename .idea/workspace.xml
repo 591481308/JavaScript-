@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d3de9cf1-3a8b-478c-964e-55904bc53877" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/github学习笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/github学习笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/github学习笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/1.github学习笔记.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,13 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/github学习笔记.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="767">
-                <caret line="104" column="12" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/2.复习JavaScript1~50节.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -102,6 +99,7 @@
         <option value="$PROJECT_DIR$/javascript/6月/8-day18-习题复习/2.去重.html" />
         <option value="$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/1.github.html" />
         <option value="$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/github学习笔记.md" />
+        <option value="$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/2.复习JavaScript1~50节.html" />
       </list>
     </option>
   </component>
@@ -242,12 +240,12 @@
       <workItem from="1559998058046" duration="1226000" />
       <workItem from="1560046065066" duration="3945000" />
       <workItem from="1560061993417" duration="2693000" />
-      <workItem from="1560151800412" duration="6081000" />
+      <workItem from="1560151800412" duration="7684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213799000" />
+    <option name="totallyTimeSpent" value="215402000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -262,7 +260,7 @@
     <frame x="837" y="11" width="1013" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2851282" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2851282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -653,13 +651,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/github学习笔记.md">
+    <entry file="file://$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/1.github学习笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="767">
-            <caret line="104" column="12" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
+          <first_editor relative-caret-position="478">
+            <caret line="91" column="15" lean-forward="true" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/2.复习JavaScript1~50节.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
