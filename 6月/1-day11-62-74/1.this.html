@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /*
+        *1.以函数形式调用时，this永远都是widow
+        *2.以方法的形式调用，this局势调用的哪个方法
+        *
+        **/
+        function Person(){
+            this.name = "孙悟空"
+        }
+        var per = new Person();
+        console.log(per);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

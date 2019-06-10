@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload=function(){
+            /*for(var i = 1; i<=9; i++){
+                for(var j = 1; j<=i; j++){
+                    document.write(j + "*" + i + "=" + j*i + "  ");
+                }
+                // document.write("1*"+i+"="+1*i);
+                document.write("<br>");
+            }*/
+
+            // 打印出1-100之间的所有质数
+
+
+            for(var i = 2; i<=100; i++){
+                var flag = true;    //这里要与if同一级才能让得到true的值
+                for (var j = 2;j<i; j++){
+                    if(i%j === 0){
+                        //绝对不是质数
+                        flag = false;
+                    }
+                }
+                if (flag){
+                    console.log(i);
+                }else{
+                    // console.log(i+"不是质数");
+                }
+            }
+
+
+
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        .contain{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+    </style>
+    <script>
+        window.onload=function () {
+            var div = document.querySelector(".container");
+            //添加拖动div事件
+            div.onmousedown=function (e) {
+                var ol = e.pageX-div.offsetLeft;
+                var ot = e.pageY-div.offsetTop;
+                //添加鼠标移动触发事件
+                document.onmousemove=function (e) {
+                    var left = e.pageX-ol;
+                    var top = e.pageY-ot;
+
+                    div.style.left=left+"px";
+                    div.style.top=top+"px";
+
+                };
+                //添加鼠标松开事件
+                document.onmouseup=function () {
+                    document.onmousemove=null;
+                    document.onmouseup=null;
+                };
+                return false
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="container"></div>
+<div class="contain"></div>
+<div class="contain"></div>
+<div class="contain"></div>
+<div class="contain"></div>
+<div class="contain"></div>
+<div class="contain"></div>
+<div class="contain"></div>
+<div class="contain"></div>
+<div class="contain"></div>
+<div class="contain"></div>
+<div class="contain"></div>
+<div class="contain"></div>
+<div class="contain"></div>
+<div class="contain"></div>
+<div class="contain"></div>
+</body>
+</html>

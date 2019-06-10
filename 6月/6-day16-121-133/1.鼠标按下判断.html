@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #container{
+            position: absolute;
+            top: 500px;
+            left: 500px;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+    <script>
+        window.onload=function () {
+            var container = document.getElementById("container");
+            var dir = 0;
+            var speen = 10;
+            //开启一个定时器来控制移动
+            setInterval(function () {
+
+
+                console.log(dir);
+                var x = container.offsetLeft;
+                var y = container.offsetTop;
+                switch (dir) {
+                    case 37:
+                        container.style.left = x-speen+"px";
+                        break;
+                    case 38:
+                        container.style.top = y-speen+"px";
+                        break;
+                    case 39:
+                        container.style.left = x+speen+"px";
+                        break;
+                    case 40:
+                        container.style.top = y+speen+"px";
+                        break;
+                }
+            },30);
+
+
+            document.onkeydown=function (e) {
+                dir = e.keyCode;
+                if(e.ctrlKey){
+                    speen = 30;
+                }else{
+                    speen = 10;
+                }
+            };
+            document.onkeyup=function (e) {
+                dir = 0;
+            };
+        }
+    </script>
+</head>
+<body>
+<div id="container"></div>
+</body>
+</html>

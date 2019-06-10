@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload=function () {
+            var time = 0;
+            var timer = setInterval(function () {
+                console.log(time);
+                if(time===20){
+                    clearInterval(timer);
+                }
+                time+=10;
+            },1000);
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

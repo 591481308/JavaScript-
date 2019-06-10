@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload=function () {
+            // alert(navigator.userAgent)
+            /*var btn = document.getElementById("btn");
+            btn.onclick=function () {
+                location.reload(true);
+            }*/
+            // console.log("我是window1" + a);
+            var fun1 = document.onclick=function () {
+                var a = 1;
+                console.log(a);
+                document.onkeydown=function () {
+                    a = 2;
+                    console.log("我是内部" + a);
+                };
+                console.log(a);
+            };
+            // console.log("我是window2" + a);
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

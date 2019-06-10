@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            position: relative;
+            width: 200px;
+            height: 150px;
+            background-color: red;
+        }
+        .contain{
+             position: relative;
+             width: 200px;
+             height: 150px;
+             background-color: red;
+         }
+    </style>
+    <script>
+        window.onload=function () {
+            document.onmousemove=function (e) {
+
+                e = e || window.e;
+
+                var x =e.pageX;
+                var y =e.pageY;
+                var div = document.querySelector(".container");
+
+                var xx = document.documentElement.scrollTop;
+                console.log(xx);
+
+                div.style.top=y+"px";
+                div.style.left=x+"px";
+
+
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+456
+</div>
+<div class="contain"></div>
+<div class="contain"></div>
+<div class="contain"></div>
+<div class="contain"></div>
+<div class="contain"></div>
+<div class="contain"></div>
+<div class="contain"></div>
+</body>
+</html>

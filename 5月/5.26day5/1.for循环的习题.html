@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+/*    window.onload=function () {
+        for(var i = 1; i>0 && i<=100; i++){
+            if(i%2 !== 0){
+                console.log(i);
+            }
+
+        }
+
+    }*/
+
+/*for(var i = 1,sum1 = 0,sum2 = 0; i>0 && i<=100; i++){
+    if(i%7 === 0){
+        sum1 = sum1 + 1;
+        sum2 = sum2 + i;
+    }
+}
+console.log(sum1);
+console.log(sum2);*/
+
+//水仙花数
+/*    for(var i = 100; i>99 && i<1000; i++){
+        if(Math.pow((parseInt(i/100)),3) + Math.pow((parseInt(i/10)%10),3) + Math.pow(((i%100)%10),3) === i){
+            console.log(i);
+        }
+    }*/
+
+//判断质数
+    var num = prompt("请输入一个大于1的整数");
+    var flag = true;
+    if(num <= 1){
+        alert("改值不合法");
+    }else{
+        for(var i = 2; i < num; i++){
+            if(num % i === 0){
+                console.log("不是质数");
+                flag = false;
+            }
+        }
+        if(flag){
+            alert("是质数");
+        }else{
+            alert("不是质数");
+        }
+    }
+</script>
+<body>
+
+</body>
+</html>

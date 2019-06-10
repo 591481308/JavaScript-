@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            width: 500px;
+            height: 333px;
+            /*overflow: hidden;*/
+        }
+        /*.container>img{
+             display: none;
+         }
+        .container .active{
+            display: block;
+        }*/
+    </style>
+    <script>
+        window.onload=function () {
+            var prev = document.getElementById("prev");
+            var next = document.getElementById("next");
+            var imgi = 0;
+            //获取img标签
+            var img = document.getElementsByTagName("img")[imgi];
+
+            //创建一个数组，用来保存图片
+            var imgArr = ["img/1.jpg","img/2.jpg","img/3.jpg","img/4.jpg","img/5.jpg"];
+
+            prev.onclick=function () {
+                if(imgi <= 0){
+                    imgi=imgArr.length;
+                }
+                // console.log(imgi);
+                img.src = imgArr[--imgi];
+                test();
+            };
+
+            next.onclick=function () {
+                if(imgi >= imgArr.length-1){
+                    // console.log(imgi);
+                    imgi=-1;
+                }
+                // console.log(imgi);
+                img.src = imgArr[++imgi];
+                // console.log("我是++"+imgi);
+                test();
+            };
+
+            var test = function(){
+                document.getElementById("info").innerText ="当前是第"+(imgi+1)+"张图片";
+            };
+            test();
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+    <img src="img/1.jpg" alt="">
+    <!--<img src="img/2.jpg" alt="">-->
+    <!--<img src="img/3.jpg" alt="">-->
+    <!--<img src="img/4.jpg" alt="">-->
+    <!--<img src="img/5.jpg" alt="">-->
+</div>
+<button id="prev">上一张</button>
+<button id="next">下一张</button>
+<p id="info">当前是第张图片</p>
+</body>
+</html>

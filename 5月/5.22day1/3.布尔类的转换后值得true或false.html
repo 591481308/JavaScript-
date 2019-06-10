@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var a = NaN;
+        a = null;
+
+        a = Boolean(a);
+
+        var b = "123";
+        b = b + undefined;
+        // console.log(typeof b);
+        // console.log(a);
+
+
+        var c = 123 + +undefined;
+
+        var d = 1 + +NaN + 3;
+
+        // console.log(c);
+        // console.log(typeof c);
+
+        console.log(d);
+        console.log(typeof d);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

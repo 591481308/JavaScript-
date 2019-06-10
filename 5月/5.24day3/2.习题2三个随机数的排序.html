@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="txt" placeholder="请依次输入3个数字">
+<input type="submit" value="确定" id="btn">
+<div id="tip"></div>
+<div id="output"></div>
+<script>
+    window.onload=function () {
+        var num1,num2,num3;
+        var a = +prompt("请输入a的值");
+        console.log(a);
+        document.getElementById("btn").onclick=function () {
+            // var val = document.getElementById("txt").value;
+            if( num1 == null){
+                num1 = document.getElementById("txt").value;
+                document.getElementById("txt").value = "";
+                document.getElementById("txt").focus();  // 这里不能用属性onfocus？
+            }else if(num2 == null){
+                num2 = document.getElementById("txt").value;
+                document.getElementById("txt").value = "";
+                document.getElementById("txt").focus();  // 这里不能用属性onfocus？
+            }else if(num3 == null){
+                num3 = document.getElementById("txt").value;
+                document.getElementById("txt").value = "";
+                document.getElementById("txt").focus();  // 这里不能用属性onfocus？
+
+                if(num1 > num2){
+                    if(num1>num3){
+                        if(num2>num3){
+                            document.getElementById("output").innerText = num3+num2+num1;
+                        }else{
+
+                        }
+                    }else{
+
+                    }
+                }else{
+
+                }
+
+            }else{
+                document.getElementById("tip").innerText = "已经输入了3个数字"
+            }
+            document.getElementById("tip").innerText = num1+num2+num3;
+            console.log(num1);
+            console.log(num2);
+            console.log(num3);
+
+
+
+        };
+
+
+    }
+</script>
+</body>
+</html>

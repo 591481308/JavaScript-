@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="txt" placeholder="请输入期末成绩（0-100）">
+<input type="submit" id="sub">
+<div id="container"></div>
+<script>
+    window.onload=function () {
+        document.getElementById("sub").onclick=function () {
+            var mark = document.getElementById("txt").value;
+            // console.log(mark);
+            if(mark == 100){
+                document.getElementById("container").innerText = "奖励一百个软妹币";
+            }else if(mark <= 99 && mark >= 80){
+                document.getElementById("container").innerText = "奖励一个胖次";
+            }else if(mark < 80 && mark >= 60){
+                document.getElementById("container").innerText = "奖励一个大魔王";
+            }else{
+                document.getElementById("container").innerText = "你个死鬼";
+            }
+        };
+
+    }
+</script>
+</body>
+</html>

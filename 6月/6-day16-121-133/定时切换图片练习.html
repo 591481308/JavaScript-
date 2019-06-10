@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        ul{
+            list-style: none;
+        }
+        .banner{
+            position: relative;
+            text-align: center;
+            background-color: blue;
+
+        }
+        .banner>img{
+            /*margin: 20px auto;*/
+            display: inline;
+            width: 500px;
+            height: 333px;
+        }
+
+        .banner .dot{
+            position:absolute;
+            top: 300px;
+            left: 50%;
+        }
+        .banner .dot ul{
+            margin-left: -50%;
+        }
+        .banner .dot ul>li{
+            float: left;
+            width: 20px;
+            height: 20px;
+            background-color: red;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+        .banner .dot ul>li:hover{
+            background-color: green;
+        }
+    </style>
+    <script>
+        window.onload=function () {
+            var img = document.getElementById("fuck");
+            var imgArr = ["img/1.jpg","img/2.jpg","img/3.jpg","img/4.jpg","img/5.jpg"];
+            var time = 0;
+            //1.封装一个定时调用函数
+            var fun1=function () {
+                if(time>=imgArr.length){
+                    time = 0
+                }
+                img.src = imgArr[time];
+                // console.log(img.src);
+                deal();
+                time++;
+            };
+
+            var timer = setInterval(fun1,1000);
+
+            img.onmouseover=function () {
+                clearInterval(timer);
+                console.log("fuck");
+            };
+            img.onmouseleave=function () {
+                timer = setInterval(fun1,1000);
+            };
+
+            //2.鼠标点击小圆点跳转效果
+            var dot = document.querySelector(".dot").children[0].children;
+            //遍历获取每一个小圆点,并为每个小圆点注册点击事件
+            for(var i = 0; i<dot.length; i++){
+
+                dot[i].num = i;
+                console.log(dot);
+                console.log(dot[i].num);
+                dot[i].onclick=function () {
+                    time = this.num;
+                    img.src = imgArr[time];
+
+                    deal();
+                }
+            }
+
+            //封装一个专门处理所有小点全变红在指定一个变绿的方法
+            var deal = function () {
+                for (var i = 0;i<imgArr.length; i++) {
+                    dot[i].style.background = "";
+                }
+                dot[time].style.background = "green";
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+    <div class="banner">
+        <img src="img/1.jpg" alt="" id="fuck">
+        <div class="dot">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
