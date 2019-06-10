@@ -73,7 +73,7 @@
 
 ### 提交代码到github(当作git服务器来用)
 - `git push [地址] master`
- + 示例: `git push https://github.com/huoqishi/test112.git master  master`
+ + 示例: `git push https://github.com/huoqishi/test112.git master`
  + 会把当前分支的内容上传到远程的master分支上
 
 - `git pull [地址] master`
