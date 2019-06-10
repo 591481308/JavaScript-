@@ -19,8 +19,8 @@
         <entry file="file://$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/github学习笔记.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="419">
-                <caret line="75" column="57" selection-start-line="75" selection-start-column="57" selection-end-line="75" selection-end-column="57" />
+              <first_editor relative-caret-position="653">
+                <caret line="94" column="51" selection-start-line="94" selection-start-column="51" selection-end-line="94" selection-end-column="51" />
               </first_editor>
               <second_editor />
             </state>
@@ -104,7 +104,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1013" />
@@ -241,12 +241,12 @@
       <workItem from="1559998058046" duration="1226000" />
       <workItem from="1560046065066" duration="3945000" />
       <workItem from="1560061993417" duration="2693000" />
-      <workItem from="1560151800412" duration="3677000" />
+      <workItem from="1560151800412" duration="3943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211395000" />
+    <option name="totallyTimeSpent" value="211661000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -258,10 +258,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14646997" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14646997" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -655,8 +655,8 @@
     <entry file="file://$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/github学习笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="419">
-            <caret line="75" column="57" selection-start-line="75" selection-start-column="57" selection-end-line="75" selection-end-column="57" />
+          <first_editor relative-caret-position="653">
+            <caret line="94" column="51" selection-start-line="94" selection-start-column="51" selection-end-line="94" selection-end-column="51" />
           </first_editor>
           <second_editor />
         </state>

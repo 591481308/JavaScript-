@@ -98,3 +98,5 @@
 - 当我们在push时，加上-u参数，例如git push origin -u master
   那么在下一次push时，我们只需要写上`git push`就能上传我们的代码。
   (加上-u之后，git会把当前分支与远程的指定的分支进行关联。git push origin master)
+
+###出bug了很烦  只有强制才能git push成功！！！
