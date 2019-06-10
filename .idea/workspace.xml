@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3de9cf1-3a8b-478c-964e-55904bc53877" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/github学习笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/github学习笔记.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/github学习笔记.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="653">
-                <caret line="94" column="51" selection-start-line="94" selection-start-column="51" selection-end-line="94" selection-end-column="51" />
+              <first_editor relative-caret-position="767">
+                <caret line="104" column="12" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -104,9 +105,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="837" />
+    <option name="y" value="11" />
     <option name="width" value="1013" />
     <option name="height" value="1057" />
   </component>
@@ -241,12 +242,12 @@
       <workItem from="1559998058046" duration="1226000" />
       <workItem from="1560046065066" duration="3945000" />
       <workItem from="1560061993417" duration="2693000" />
-      <workItem from="1560151800412" duration="3943000" />
+      <workItem from="1560151800412" duration="6081000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211661000" />
+    <option name="totallyTimeSpent" value="213799000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -258,10 +259,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="837" y="11" width="1013" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14646997" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2851282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -655,8 +656,8 @@
     <entry file="file://$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/github学习笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="653">
-            <caret line="94" column="51" selection-start-line="94" selection-start-column="51" selection-end-line="94" selection-end-column="51" />
+          <first_editor relative-caret-position="767">
+            <caret line="104" column="12" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>

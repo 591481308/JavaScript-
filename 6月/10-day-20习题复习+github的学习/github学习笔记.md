@@ -92,11 +92,14 @@
 - 先pull , 再push
 
 ## push和pull的简写
-- git remote add origin https://github.com/huoqishi/test112.git
+- 示例: `git remote add origin https://github.com/huoqishi/test112.git`
     - 这里的remote相当于var origin相当于var的字面量 = 后面的地址
-      字面量赋值后，我们提交则可以这样写git push origin master
-- 当我们在push时，加上-u参数，例如git push origin -u master
+      字面量赋值后，我们提交则可以这样写`git push origin master`
+- 当我们在push时，加上-u参数，例如`git push origin -u master`
   那么在下一次push时，我们只需要写上`git push`就能上传我们的代码。
-  (加上-u之后，git会把当前分支与远程的指定的分支进行关联。git push origin master)
+  (加上-u之后，git会把当前分支与远程的指定的分支进行关联。`git push origin master`)
 
-###出bug了很烦  只有强制才能git push成功！！！
+###test
+- 出bug了很烦  只有强制才能git push成功！！！
+- 上一条测试成功，不用强制也可以git push 现在测试 便捷版的git push
+- 上一条测试失败，继续
