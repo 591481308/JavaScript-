@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3de9cf1-3a8b-478c-964e-55904bc53877" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/github学习笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5月/5.22day1/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/5月/5.22day1(JavaScript重新再学一遍！！！)/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5月/5.22day1/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/5月/5.22day1(JavaScript重新再学一遍！！！)/2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5月/5.22day1/3.布尔类的转换后值得true或false.html" beforeDir="false" afterPath="$PROJECT_DIR$/5月/5.22day1(JavaScript重新再学一遍！！！)/3.布尔类的转换后值得true或false.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5月/5.22day1/4.a++.html" beforeDir="false" afterPath="$PROJECT_DIR$/5月/5.22day1(JavaScript重新再学一遍！！！)/4.a++.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5月/5.22day1/5.习题.html" beforeDir="false" afterPath="$PROJECT_DIR$/5月/5.22day1(JavaScript重新再学一遍！！！)/5.习题.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5月/5.22day1/5月22总结.html" beforeDir="false" afterPath="$PROJECT_DIR$/5月/5.22day1(JavaScript重新再学一遍！！！)/5月22总结.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/github学习笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/github学习笔记.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,8 +19,8 @@
         <entry file="file://$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/github学习笔记.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1692">
-                <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+              <first_editor relative-caret-position="-398">
+                <caret line="56" selection-start-line="56" selection-end-line="56" />
               </first_editor>
               <second_editor />
             </state>
@@ -111,9 +104,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="824" />
-    <option name="y" value="-19" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="823" />
     <option name="width" value="1013" />
     <option name="height" value="1057" />
   </component>
@@ -248,12 +240,12 @@
       <workItem from="1559998058046" duration="1226000" />
       <workItem from="1560046065066" duration="3945000" />
       <workItem from="1560061993417" duration="2693000" />
-      <workItem from="1560151800412" duration="2928000" />
+      <workItem from="1560151800412" duration="3180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210646000" />
+    <option name="totallyTimeSpent" value="210898000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -661,8 +653,8 @@
     <entry file="file://$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/github学习笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1692">
-            <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+          <first_editor relative-caret-position="-398">
+            <caret line="56" selection-start-line="56" selection-end-line="56" />
           </first_editor>
           <second_editor />
         </state>
