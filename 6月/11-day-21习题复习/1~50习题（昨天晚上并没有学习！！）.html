@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload=function () {
+            //1.质数的判断
+            var a = prompt("请出入一个大于零的随机数");
+            var flag = true;
+
+            if(a>0){
+                if(a>2){
+                    for(var i = 2; i<a; i++){
+                        if(a%i === 0){
+                            flag = false;
+                            break;
+                        }
+                        // for(var j = 2; j<a; j++){
+                        //
+                        // }
+                    }
+                    if(flag){
+                        console.log("是质数");
+                    }else{
+                        console.log("不是质数");
+                    }
+                }else{
+                    console.log("不是质数");
+                }
+            }else{
+                alert("请输入大于零的数字")
+            }
+
+        }
+    </script>
+</head>
+<body>
+<!--
+笔记
+1.
+将其他类型的数据类型转换为Boolean
+数字>>>除了0和NaN，其它都是true
+字符串>>>除了空字符串，其他都是true
+null 和 undefined都转换成false
+对象转换成true
+-->
+</body>
+</html>
