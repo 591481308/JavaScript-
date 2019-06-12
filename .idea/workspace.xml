@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3de9cf1-3a8b-478c-964e-55904bc53877" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/6月/12-day-22习题复习/51~100集.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/无法解决的问题/1.函数实参与形参中的“【实参】“问题.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/无法解决的问题/images/js函数中调用实参中形参的写法_LI.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6月/1-day11-62-74/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/6月/1-day11-62-74/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6月/11-day-21习题复习/1~50习题（昨天晚上并没有学习！！）.html" beforeDir="false" afterPath="$PROJECT_DIR$/6月/11-day-21习题复习/1~50习题（昨天晚上并没有学习！！）.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6月/3-day13-85-95/图片切换练习.html" beforeDir="false" afterPath="$PROJECT_DIR$/6月/3-day13-85-95/图片切换练习.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6月/6-day16-121-133/定时切换图片练习.html" beforeDir="false" afterPath="$PROJECT_DIR$/6月/6-day16-121-133/定时切换图片练习.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6月/12-day-22习题复习/51~100集.html" beforeDir="false" afterPath="$PROJECT_DIR$/6月/12-day-22习题复习/51~100集.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,7 +28,6 @@
                 <element signature="e#175#947#0" />
                 <element signature="e#986#1367#0" />
                 <element signature="e#1414#1703#0" />
-                <element signature="e#1450#1482#0" />
               </folding>
             </state>
           </provider>
@@ -44,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/6月/12-day-22习题复习/51~100集.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -57,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/6月/1-day11-62-74/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="730">
-              <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+            <state relative-caret-position="654">
+              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -67,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/无法解决的问题/1.函数实参与形参中的“【实参】“问题.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -77,7 +70,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="95">
-                <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+                <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
               </first_editor>
               <second_editor />
             </state>
@@ -317,11 +310,12 @@
       <workItem from="1560237668569" duration="6125000" />
       <workItem from="1560259783216" duration="3272000" />
       <workItem from="1560300439226" duration="9478000" />
+      <workItem from="1560356164118" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235513000" />
+    <option name="totallyTimeSpent" value="235526000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -598,16 +592,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/1.github.html" />
-    <entry file="file://$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/1.github学习笔记.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="478">
-            <caret line="91" column="15" lean-forward="true" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/1.github学习笔记.md" />
     <entry file="file://$PROJECT_DIR$/6月/10-day-20习题复习+github的学习/2.复习JavaScript1~50节.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -726,19 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6月/11-day-21习题复习/1~50习题（昨天晚上并没有学习！！）.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
-          <folding>
-            <element signature="e#175#947#0" />
-            <element signature="e#986#1367#0" />
-            <element signature="e#1414#1703#0" />
-            <element signature="e#1450#1482#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/无法解决的问题/images/js函数中调用实参中形参的写法_LI.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -756,10 +728,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/6月/11-day-21习题复习/1~50习题（昨天晚上并没有学习！！）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+          <folding>
+            <element signature="e#175#947#0" />
+            <element signature="e#986#1367#0" />
+            <element signature="e#1414#1703#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6月/12-day-22习题复习/51~100集.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6月/1-day11-62-74/1.this.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/无法解决的问题/1.函数实参与形参中的“【实参】“问题.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -767,26 +761,16 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="95">
-            <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6月/12-day-22习题复习/51~100集.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/6月/1-day11-62-74/1.this.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/6月/1-day11-62-74/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        <state relative-caret-position="654">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
         </state>
       </provider>
     </entry>
