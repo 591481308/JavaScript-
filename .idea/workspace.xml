@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d3de9cf1-3a8b-478c-964e-55904bc53877" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5月/5.28day7-44/总结.html" beforeDir="false" afterPath="$PROJECT_DIR$/5月/5.28day7-44/总结.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6月/11-day-21习题复习/1~50习题（昨天晚上并没有学习！！）.html" beforeDir="false" afterPath="$PROJECT_DIR$/6月/11-day-21习题复习/1~50习题（昨天晚上并没有学习！！）.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/6月/11-day-21习题复习/1~50习题（昨天晚上并没有学习！！）.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="589">
+              <caret line="74" column="9" lean-forward="true" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
               <folding>
                 <element signature="e#175#947#0" />
                 <element signature="e#986#1367#0" />
@@ -120,7 +118,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="669" />
     <option name="width" value="1156" />
     <option name="height" value="1057" />
@@ -301,12 +299,12 @@
       <workItem from="1560221973183" duration="112000" />
       <workItem from="1560237668569" duration="6125000" />
       <workItem from="1560259783216" duration="3272000" />
-      <workItem from="1560300439226" duration="4331000" />
+      <workItem from="1560300439226" duration="4623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230366000" />
+    <option name="totallyTimeSpent" value="230658000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -764,8 +762,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/6月/11-day-21习题复习/1~50习题（昨天晚上并没有学习！！）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="589">
+          <caret line="74" column="9" lean-forward="true" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
           <folding>
             <element signature="e#175#947#0" />
             <element signature="e#986#1367#0" />
