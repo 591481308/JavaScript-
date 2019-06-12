@@ -6,13 +6,13 @@
     <script>
         window.onload=function () {
             //1.质数的判断
-            var a = prompt("请出入一个大于零的随机数");
+            /*var a = prompt("请出入一个大于零的随机数");
             var flag = true;
 
-            if(a>0){
-                if(a>2){
-                    for(var i = 2; i<a; i++){
-                        if(a%i === 0){
+            if (a > 0) {
+                if (a > 2) {
+                    for (var i = 2; i < a; i++) {
+                        if (a % i === 0) {
                             flag = false;
                             break;
                         }
@@ -20,17 +20,46 @@
                         //
                         // }
                     }
-                    if(flag){
+                    if (flag) {
                         console.log("是质数");
-                    }else{
+                    } else {
                         console.log("不是质数");
                     }
-                }else{
+                } else {
                     console.log("不是质数");
                 }
-            }else{
+            } else {
                 alert("请输入大于零的数字")
-            }
+            }*/
+
+            //2.封装一个数组去重
+            /*var aa = [1,2,2,1,4,5,5,5,3,4,8,5];
+            var remove = function (e) {
+                var newArr = [];
+                for (var i = 0; i<e.length; i++){
+                    if(newArr.indexOf(e[i]) === -1){
+                        newArr.push(e[i])
+                    }
+                }
+                return newArr;
+            };
+
+            console.log(remove(aa));*/
+
+            //3.每秒打印1~5为雪前耻，不惜吾身
+            var time = 0;
+            var timer = setInterval(function () {
+                if(time<5){
+                    time++;
+                }else{
+                    clearInterval(timer);
+                    return
+                }
+                console.log(time);
+            },1000);
+
+            var arr2 = [1,2,3];
+            arr2.splice()
 
         }
     </script>
