@@ -5,7 +5,10 @@
     <title>Title</title>
     <script>
         /*function Person() {
-            this.name = 10;  //这里为什么不能用var name = 10？
+            console.log(this.name = 10);
+            /!*var name = 10;*!/
+            // this.name = 10;  //这里为什么不能用var name = 10？
+
         }
         var per = new Person();
 
@@ -13,8 +16,7 @@
 
 
 
-        /*
-        function One() {
+        /*function One() {
 
         }
         var mc = new One();
