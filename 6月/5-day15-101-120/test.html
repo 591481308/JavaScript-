@@ -11,22 +11,32 @@
             var all = document.all;
             console.log(all);*/
 
-            /*for(var i = 0; i<=3; i++){
-                var _i = i;
-                document.getElementsByTagName("button")[0].onclick=function () {
-                    // alert("fuck");
-                    console.log(_i);
-                }
-            }*/
+            // for(var i = 0; i<=3; i++){
+            //     var _i = i;
+            //     document.getElementsByTagName("button")[0].onclick=function () {
+            //         // alert("fuck");
+            //         console.log(_i);
+            //     }
+            // }
 
-            function getStyle(obj,name){
+
+            /*function getStyle(obj,name){
                 return obj.currencySystem[name]
             }
 
-            getStyle()
+            getStyle()*/
+
+            var arr = ["",1,2,2,"",3,"",4];
+
+            for (var i = 0; i<arr.length; i++){
+                if(arr[i] === ""){
+                    arr.splice(i,1);
+                }
+            }
+            console.log(arr);
+
+
         }
-
-
 
 
     </script>

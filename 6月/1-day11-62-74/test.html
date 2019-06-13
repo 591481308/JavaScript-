@@ -27,14 +27,29 @@
         console.log(mc.a);
         console.log(mc2.a);*/
 
-        function Person(name,age) {
+        /*function Person(name,age) {
             this.name = name;
             this.age = age
         }
         var per = new Person("孙悟空",18);
-        console.log(per);
+        console.log(per);*/
 
-        for()
+        var aa = "dgfhfgh254bhku289fgdhdy675gfh"
+        var reg = /[A-z]/;
+        // if (reg.test(aa)) {
+        //     aa.
+        // }
+        var res = aa.split(/[A-z]/);
+        for (let i = 0; i < res.length; i++) {
+            // const element = res[i];
+            if (res[i] === "") {
+                res.splice(i,1);
+                console.log(i);
+
+            }
+        }
+        console.log(res);
+
 
     </script>
 </head>

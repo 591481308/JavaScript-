@@ -10,18 +10,39 @@
             btn.onclick=function () {
                 location.reload(true);
             }*/
+
+
             // console.log("我是window1" + a);
-            var fun1 = document.onclick=function () {
-                var a = 1;
-                console.log(a);
-                document.onkeydown=function () {
-                    a = 2;
-                    console.log("我是内部" + a);
-                };
-                console.log(a);
-            };
-            // console.log("我是window2" + a);
-        }
+            // var a;
+            // document.onclick=function () {
+            //      var a = 1;
+            //     console.log("我是fun1上面的a============"+a);
+            //     document.onkeydown=function () {
+            //         a = 2;
+            //         console.log("我是内部a============" + a);
+            //     };
+            //     console.log("我是fun1下面的a============"+a);
+            // };
+            //
+            // console.log("我是windowA============" + a);
+
+
+
+            var a;
+            function aaa(e) {
+                alert(e);
+                a = 2;
+                function bbb(e) {
+
+                    console.log(e);
+                }
+            }
+            aaa("aas");
+
+            console.log(a);
+
+
+        };
 
     </script>
 </head>
