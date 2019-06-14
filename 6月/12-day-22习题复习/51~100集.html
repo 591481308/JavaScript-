@@ -22,31 +22,43 @@
             } */
             }
 
-            //2.熟练运用splice和slice方法
-            if (2) {
-                
-            }
-
-            
-            //正则表达式
-            
+            //2.正则表达式   
             // 正则表达式匹配右键练习
             // dgfhfgh254bhku289fgdhdy675gfh
-            // 匹配输出[254,289,675]
-            var aa = "dgfhfgh254bhku289fgdhdy675gfh"
-            var res = aa.split(/[A-z]/);
-            console.log(res);
+            // 匹配输出[254,289,675]         
+            if (2) {
+            // var aa = "dgfhfgh254bhku289fgdhdy675gfh"
+            // var res = aa.split(/[A-z]/);
+            // console.log(res);
 
-            for (let i = 0; i < res.length; i++) {
-                // const element = res[i];
-                if (res[i] === "") {
-                    res.splice(i,1);
-                    i--;
-                    
-                }
+            // for (let i = 0; i < res.length; i++) {
+            //     // const element = res[i];
+            //     if (res[i] === "") {
+            //         res.splice(i,1);
+            //         i--;
+            //     }
+            // }
+            // console.log(res);
+            // //障眼法害死人！！！
             }
-            console.log(res);
-            //障眼法害死人！！！
+
+            //2.正则表达式  邮件匹配  
+            if (3) {
+
+            }
+
+            var str = "591481308@qq.com";
+
+            var reg = /\w+@[A-z0-9]{2,5}[\.][A-z0-9]{2,5}$/;
+
+            console.log(reg.test(str));
+            
+
+
+
+            
+            
+            
            
 
        

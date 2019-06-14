@@ -27,7 +27,9 @@
 		<script type="text/javascript">
 
 			window.onload = function(){
-				/*
+
+				if(!1){
+					/*
 				 * 拖拽box1元素
 				 *  - 拖拽的流程
 				 * 		1.当鼠标在被拖拽元素上按下时，开始拖拽  onmousedown
@@ -70,6 +72,69 @@
 						document.onmouseup = null;
 					};
 				};
+				}
+				
+				if(2){
+					var box1 = document.getElementById("box1");
+					
+					//1.当鼠标按下去的时候
+					box1.onmousedown = function fun1(e) {
+
+						//获取鼠标按下去的xy
+						var downX = e.pageX;
+						var downY = e.pageY;
+						//获取box1的xy
+						var box1X = box1.offsetLeft;
+						var box1Y = box1.offsetTop;
+						console.log("我是鼠标按下位置"+downX);
+						console.log("我是div偏移量"+box1X);
+
+						var addX = downX - box1X;
+						var addY = downY - box1Y
+						
+						
+						
+
+					//2.当鼠标拖动的时候
+					document.onmousemove = function fun2(e) {
+						//获取鼠标的当前位置
+						var curX = e.pageX;
+						var curY = e.pageY;
+						// console.log("我是鼠标当前位置"+curX);
+
+					
+						
+
+						//获取鼠标移动的距离
+
+						var moveX = e.pageX - addX;
+						var moveY = e.pageY - addY;
+						// console.log(moveX);
+						
+						//修改box1的XY
+						box1.style.left = moveX + "px";
+						box1.style.top = moveY + "px";
+
+
+					}
+
+					//3.当鼠标抬起的时候
+					document.onmouseup = function fun3(element) {
+						// alert("funck");
+
+						document.onmousemove = null;
+						document.onmouseup == null;
+
+					}
+
+					return false;
+
+					
+					}
+					
+
+
+				}
 
 
 
@@ -81,7 +146,50 @@
 	</head>
 	<body>
 		<div id="box1"></div>
-
 		<div id="box2"></div>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
+		<p>asdfgasdfga</p>
 	</body>
 </html>
