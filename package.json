@@ -1,0 +1,27 @@
+{
+  "name": "Javascript",
+  "version": "1.0.0",
+  "description": "JavaScript的学习记录\r ### 欢迎来到前端小白白的JavaScript仓库\r ### 这里是用来记录我每天学习JavaScript的过程，里面有我学习时做过的JavaScript习题，以及我每天所学了些什么",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangchi56/JavaScript-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangchi56/JavaScript-/issues"
+  },
+  "homepage": "https://github.com/zhangchi56/JavaScript-#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "dependencies": {
+    "eslint-plugin-html": "^5.0.5",
+    "save-dev": "^2.0.0"
+  }
+}
