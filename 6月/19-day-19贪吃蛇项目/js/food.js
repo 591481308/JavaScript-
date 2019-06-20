@@ -5,8 +5,8 @@
 //   var n = 1;
 // }
 // fn();
-// 
-// 
+//
+//
 // 自调用函数  --  开启一个新的作用域，避免命名冲突
 (function () {
   // 局部作用域
@@ -28,7 +28,6 @@
   Food.prototype.render = function (map) {
     // 删除之前创建的食物
     remove();
-
     // 随机设置x和y的值
     this.x = Tools.getRandom(0, map.offsetWidth/this.width - 1) * this.width;
     this.y = Tools.getRandom(0, map.offsetHeight/this.height - 1) * this.height;
@@ -46,7 +45,7 @@
     div.style.width = this.width + 'px';
     div.style.height = this.height + 'px';
     div.style.backgroundColor = this.color;
-  }
+  };
 
   function remove() {
     for (var i = elements.length - 1; i >= 0; i--) {
@@ -62,16 +61,7 @@
 
   // 把Food构造函数  让外部可以访问
   window.Food = Food;
-})()
-
-
-
-
-// 测试
-var map = document.getElementById('map');
-var food = new Food();
-food.render(map);
-
+})();
 
 
 
