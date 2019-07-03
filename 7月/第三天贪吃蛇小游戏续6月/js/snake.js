@@ -44,7 +44,7 @@
 
 
   //创建蛇的移动功能
-  Snake.prototype.move = function (){
+  Snake.prototype.move = function (food,map){
     //蛇身体的移动
     for(var i = this.body.length-1; i>0; i--){
       this.body[i].x = this.body[i-1].x;
@@ -56,7 +56,7 @@
       case "top":
         this.body[0].y -= 1;
         break;
-      case "down":
+      case "bottom":
         this.body[0].y += 1;
         break;
       case "left":
@@ -66,19 +66,34 @@
         this.body[0].x += 1;
         break;
     }
+
+    //2.4判断蛇头是否和食物重合
+    var headX = this.body[0].x * this.width;
+    var headY = this.body[0].y * this.width;
+    if(headX === food.x && headY === food.y){
+      //让蛇增加一节
+      //获取蛇的最后一节
+      var last = this.body[this.body.length - 1];
+      this.body.push({
+        x: last.x,
+        y: last.y,
+        color: last.color
+      });
+
+
+      //随机生成蛇对象
+      food.render(map);
+    }
   };
 
   function del (){
     for(var i = elements.length-1; i>= 0; i--){
       //删除div
-      // elements[i].parentNode.removeChild(elements[i]);
+      elements[i].parentNode.removeChild(elements[i]);
       //删除数组中的元素
       elements.splice(i,1);
 
-
-
     }
   }
-
   window.Snake = Snake;
 })();

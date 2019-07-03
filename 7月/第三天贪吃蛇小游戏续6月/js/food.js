@@ -8,7 +8,7 @@
 //
 //
 // 自调用函数  --  开启一个新的作用域，避免命名冲突
-(function () {
+;(function (window,undefined) {
   // 局部作用域
   var position = 'absolute';
   // 记录上一次创建的食物，为删除做准备
@@ -51,17 +51,13 @@
     for (var i = elements.length - 1; i >= 0; i--) {
       // 删除div
       elements[i].parentNode.removeChild(elements[i]);
-      // 删除数组中的元素
-      // 删除数组元素
-      // 第一个参数，从哪个元素开始删除
-      // 第二个参数，删除几个元素
       elements.splice(i, 1);
     }
   }
 
   // 把Food构造函数  让外部可以访问
   window.Food = Food;
-})();
+})(window,undefined);
 
 
 
